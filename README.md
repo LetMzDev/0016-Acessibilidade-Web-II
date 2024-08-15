@@ -1,6 +1,7 @@
 # Estudando mais sobre acessibilidade web
 
-## inert atributte
+## Bibliotecas
+### inert atributte
 - [`inert.js`](https://github.com/WICG/inert)
 	- Uma propriedade de HTML5 que permite tornar elementos na página inacessíveis para interações de usuários e tecnologias assistivas, como leitores de tela. Quando um elemento está com o atributo inert, ele se comporta como se estivesse "desativado". Isso significa que:
 		- O elemento não pode ser focado ou interagido por meio do teclado ou mouse.
@@ -11,3 +12,7 @@
 
 	- **Acessibilidade**: Garantir que o inert seja removido adequadamente quando não for mais necessário, para não comprometer a experiência de usuários de tecnologias assistivas.
 	- **Compatibilidade**: Como o inert não é suportado nativamente em todos os navegadores, a biblioteca inert-polyfill é essencial para garantir funcionalidade consistente.
+___
+- [SweetAlert2](https://sweetalert2.github.io/)
+	- Permite criar caixas de diálogo (modais) personalizadas e atraentes em suas aplicações web.
+	- Ela oferece uma ampla variedade de opções de personalização, permitindo que você crie alertas, confirmações e mensagens de erro com um design elegante e interativo.
