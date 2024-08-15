@@ -1,7 +1,7 @@
 // Variaveis
 
 var btns = document.querySelectorAll('.listaDeArtigos-slider-item');
-let noticias = document.querySelectorAll('.listaDeArtigosItem');
+let noticias = document.querySelectorAll('.listaDeArtigos-item');
 
 var new0 = document.querySelector('#new0');
 var new1 = document.querySelector('#new1');
@@ -12,10 +12,7 @@ new0.style.display = 'block'
 // Criando indicador de slide atual
 let indicadorSlideAtual = document.createElement('span');
 indicadorSlideAtual.classList.add('escondeVisualmente');
-indicadorSlideAtual.id = 'escondeVisualmente';
 indicadorSlideAtual.textContent = '(Slide atual)';
-
-document.querySelector('#new0').style.display = 'block';
 
 var btns = document.querySelectorAll('.listaDeArtigos-slider-item');
 
@@ -23,34 +20,18 @@ var btns = document.querySelectorAll('.listaDeArtigos-slider-item');
 btns.forEach(function (btn) {
 	btn.addEventListener('click', function () {
 
-		btn.href = 'javascript:void(0)'
-
-		noticias.forEach(function(noticia) {
+		noticias.forEach(function (noticia) {
 			noticia.style.display = 'none';
 
-			if ( this.getAttribute('data-sliderItem') === noticia.getAttribute('data-noticia')) {
+			if (this.getAttribute('data-sliderItem') === noticia.getAttribute('data-noticia')) {
 				noticia.style.display = 'block'
 			}
 
-		});
+		}.bind(this));
 
-
-		// if (this.getAttribute('data-sliderItem') === '0') {
-		// 	new0.style.display = 'block';
-		// 	new1.style.display = 'none';
-		// 	new2.style.display = 'none';
-		// } else if (this.getAttribute('data-sliderItem') === '1') {
-		// 	new0.style.display = 'none';
-		// 	new1.style.display = 'block';
-		// 	new2.style.display = 'none';
-		// } else {
-		// 	new0.style.display = 'none';
-		// 	new1.style.display = 'none';
-		// 	new2.style.display = 'block';
-		// }
-
-		document.querySelector('#escondeVisualmente').remove();
+		document.querySelector('.listaDeArtigos-slider-item .escondeVisualmente').remove();
 		this.append(indicadorSlideAtual);
+
 
 		// Remove classe 'ativo' dos outros botoes
 		btns.forEach(function (btnRemoveClass) {
