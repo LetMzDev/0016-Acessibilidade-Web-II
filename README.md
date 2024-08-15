@@ -16,3 +16,11 @@ ___
 - [SweetAlert2](https://sweetalert2.github.io/)
 	- Permite criar caixas de diálogo (modais) personalizadas e atraentes em suas aplicações web.
 	- Ela oferece uma ampla variedade de opções de personalização, permitindo que você crie alertas, confirmações e mensagens de erro com um design elegante e interativo.
+___
+- [Repositório inert do Google](https://github.com/GoogleChrome/inert-polyfill)
+___
+
+## Outros
+- [Padrões de componentes acessíveis do eBay](https://opensource.ebay.com/mindpatterns/)
+- [Boas práticas em relação ao modal, recomendadas pela W3C](https://www.w3.org/WAI/ARIA/apg/#dialog_modal)
+- [Exemplo de como fazer um modal, pela W3C](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/dialog/)

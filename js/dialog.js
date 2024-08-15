@@ -21,9 +21,10 @@ function fechandoDialog() {
   document.activeElement.blur();
   dialog.classList.remove('dialogNewsletter--aberto');
   conteudoForaDialog.inert = false;
-  btnAbreDialog.focus;
+  btnAbreDialog.focus();
   video.setAttribute('controls', true);
 }
+
 
 // Listeners
 document.querySelector('.dialogNewsletter-fechar').addEventListener('click', fechandoDialog);
