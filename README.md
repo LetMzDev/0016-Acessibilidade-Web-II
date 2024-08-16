@@ -27,3 +27,7 @@ ___
 - [Boas práticas em relação ao modal, recomendadas pela W3C](https://www.w3.org/WAI/ARIA/apg/#dialog_modal)
 - [Exemplo de como fazer um modal, pela W3C](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/dialog/)
 - [A11Y Style Guide](https://a11y-style-guide.com/style-guide/)
+- [11 dicas e boas práticas para deixar o site acessível](https://www.handtalk.me/br/blog/acessibilidade-ranking-google/)
+- [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/)
+- [Guia de atalhos para testes](https://webaim.org/techniques/keyboard/#testing)
+	-  WebAIM que possui alguns atalhos interessante para testarmos nossos projetos e verificarmos se está tudo acessível via teclado.
