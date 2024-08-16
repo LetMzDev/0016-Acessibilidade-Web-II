@@ -18,12 +18,20 @@
   color: transparent;
   line-height: 1;
   transition: .2s ease-in;
+  box-sizing: border-box; /* O tamanho levará em consideração a borda, assim não 'crescerá' a página */
+}
+
+.contatoCampo-checkbox:hover + .contatoCampo-label:before,
+.contatoCampo-checkbox:focus + .contatoCampo-label:before {
+	border: 2px solid #1fadd1;
 }
 
 .contatoCampo-checkbox:checked + .contatoCampo-label:before {
   content: 'x';
   color: #fff;
   background-image: radial-gradient(circle, #2DA4E7, #2F80ED);
+  border-color: transparent;
+  line-height: 0.8;
 }
 
 .contatoCampo-checkbox {
