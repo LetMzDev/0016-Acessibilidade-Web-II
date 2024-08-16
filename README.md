@@ -26,3 +26,4 @@ ___
 - [Padrões de componentes acessíveis do eBay](https://opensource.ebay.com/mindpatterns/)
 - [Boas práticas em relação ao modal, recomendadas pela W3C](https://www.w3.org/WAI/ARIA/apg/#dialog_modal)
 - [Exemplo de como fazer um modal, pela W3C](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/dialog/)
+- [A11Y Style Guide](https://a11y-style-guide.com/style-guide/)
