@@ -20,6 +20,9 @@
   line-height: 1.6;
   text-align: center;
   margin: 0 auto;
+  /* Centralizar o legend */
+  text-align: center;
+  align-self: center;
 }
 
 .secaoContato-form-cta {
