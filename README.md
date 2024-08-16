@@ -19,6 +19,8 @@ ___
 ___
 - [Repositório inert do Google](https://github.com/GoogleChrome/inert-polyfill)
 ___
+- [mailcheck][https://github.com/mailcheck/mailcheck]
+___
 
 ## Outros
 - [Padrões de componentes acessíveis do eBay](https://opensource.ebay.com/mindpatterns/)
